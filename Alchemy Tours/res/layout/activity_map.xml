@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+        class="com.google.android.gms.maps.MapFragment" />
+
+<!--  <Button
+    android:id="@+id/map_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="Lit" />
+    -->
+<RadioGroup android:id="@+id/rg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RadioButton android:id="@+id/radio_historical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Historical"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton android:id="@+id/radio_literary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Literary"
+        android:onClick="onRadioButtonClicked"/>
+      <RadioButton android:id="@+id/all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All"
+        android:onClick="onRadioButtonClicked"/>
+</RadioGroup>
+
+</RelativeLayout>
+        
+<!--  <fragment xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    map:cameraTargetLat="53.350705"
+    map:cameraTargetLng="-6.260676"
+    map:cameraZoom="15" 
+        class="com.google.android.gms.maps.MapFragment" />-->

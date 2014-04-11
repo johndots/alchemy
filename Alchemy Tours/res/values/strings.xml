@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alchemy Tours</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="about">About</string>
+    <string name="take_tour">Take a Tour</string>
+    <string name="availability">Check Availability</string>
+    <string name="book_tour">Book a Tour</string>
+    <string name="buy_full_version">Buy Full Version</string>
+    <string name="scan">Scan</string>
+    <string name="nfc">NFC</string>
+     <string name="neal_description">Neal</string>
+   <string name="about_text">Hi my name is Neal Doherty. Having spent many years in the food industry I have just commenced my second career.as a tour guide. I completed the Failte Ireland (Irish Tourist Board) guide course three years ago with a merit and have been guiding ever since. As a member of Toastmasters International I have also learned the public speaking skills that ensure an excellent delivery for my guests.
+
+In order to keep the presentations fresh I am constantly changing them to get the best mix of humour and fact. This helps to keep the presentations interesting for me and fascinating for my guests. 
+
+Confusious said: If you can make your hobby your job then you will never have to work a day in your life. While I have been very busy guiding for the last three years I have not considered one day of it as work. I have really enjoyed looking after and entertaining my guests during that period
+
+If you decide to let me guide for you here in Ireland, I look forward to meeing you our your clients If you decide to make alternative arrangements I really hope you enjoy your visit. Thanks for taking the time to read this anyway.
+       
+   </string>
+   
+ <string name="molly_malone">  Hear about the fictitious fish vendor of Dublin and the ‘interesting’ nicknames that we Dubliners have for her statue.  Join with me as I sing a verse of the song!</string>
+<string name="guinness">So much a part for your visit to Dublin. You will hear lots of references to the famous ‘Black Stuff’. Yes it’s an acquired taste, but it’s a taste that is acquired easily! I tell you the story of Guinness that will whet your thirst. </string>
+</resources>
