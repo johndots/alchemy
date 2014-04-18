@@ -2,11 +2,14 @@ package ie.alchemytours.alchemytours;
 
 
  
+//import java.net.URL;
+
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.view.KeyEvent;
+//import android.view.KeyEvent;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
  
@@ -29,7 +32,7 @@ public class BookTour extends Activity {
        // web = new WebView(this);
         web.setWebViewClient(new myWebClient());
         web.getSettings().setJavaScriptEnabled(true);
-        web.loadUrl("http://alchemytours.ie/booka.php");
+        web.loadUrl("http://alchemytours.ie/bookc.php");
         web.getSettings().setLoadWithOverviewMode(true);
         web.getSettings().setUseWideViewPort(true);
     }
@@ -53,7 +56,7 @@ public class BookTour extends Activity {
     }
  
     // To handle "Back" key press event for WebView to go back to previous screen.
-   @Override
+/*   @Override
    public boolean onKeyDown(int keyCode, KeyEvent event)
   {
     if ((keyCode == KeyEvent.KEYCODE_BACK) && web.canGoBack()) {
@@ -61,6 +64,23 @@ public class BookTour extends Activity {
         return true;
     }
     return super.onKeyDown(keyCode, event);
+   }*/
+   @Override
+   public void onBackPressed() {
+      super.onBackPressed();
+if (web.getUrl().contains("http://www.alchemytours.ie/thankyou1.php?")){
+       
+       Intent i = new Intent(getApplicationContext(),MainActivity.class);
+		startActivity(i);
+}
+else if (web.getUrl().contains("http://alchemytours.ie/bookc.php")){
+    
+    Intent i = new Intent(getApplicationContext(),MainActivity.class);
+		startActivity(i);
+}
+
+else{Intent i = new Intent(getApplicationContext(),BookTour.class);
+startActivity(i);}
    }
 }
 
