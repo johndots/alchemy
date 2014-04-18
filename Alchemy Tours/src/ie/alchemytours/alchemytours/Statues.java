@@ -11,10 +11,13 @@ import org.json.JSONObject;
  
 import android.app.ListActivity;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ListAdapter;
+import android.widget.ListView;
 import android.widget.SimpleAdapter;
  
 public class Statues extends ListActivity  {
@@ -87,6 +90,19 @@ setListAdapter(adapter);
  
 }
  
+}
+protected void onListItemClick(ListView l, View v, int position, long id) {
+    // position is the position in the adapter and id is what adapter.getItemId() returns.
+    // use one of them to get the group id from the data.
+	if ( position == 1){
+	Intent i = new Intent(getApplicationContext(),About.class);
+	startActivity(i);
+	}
+	else if ( position == 2){
+		Intent i = new Intent(getApplicationContext(),DemoActivity.class);
+		startActivity(i);
+		}
+
 }
 }
 
