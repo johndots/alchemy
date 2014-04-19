@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
 	
 	Button button_about;
 	Button button_take_tour;
-	Button button_availability;
+	Button button_statues;
 	Button button_book_tour;
 	Button button_buy_full_version;
 	Button button_scan;
@@ -36,7 +36,7 @@ public class MainActivity extends Activity {
 		
 		button_about = (Button) findViewById(R.id.button_about);
 		button_take_tour = (Button) findViewById(R.id.button_take_tour);
-		button_availability = (Button) findViewById(R.id.button_availability);
+		button_statues = (Button) findViewById(R.id.button_statues);
 		button_book_tour = (Button) findViewById(R.id.button_book_tour);
 		button_buy_full_version= (Button) findViewById(R.id.button_buy_full_version);
 		button_scan= (Button) findViewById(R.id.button_scan);
@@ -65,7 +65,7 @@ public class MainActivity extends Activity {
 			}
 		});
 		
-	button_availability.setOnClickListener(new View.OnClickListener() {
+	button_statues.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View view) {

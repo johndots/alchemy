@@ -163,7 +163,7 @@ public class TakeTour2 extends Activity implements /*OnMarkerClickListener,*/OnI
 final Marker jj = mMap.addMarker(new MarkerOptions()
 	        .position(JJ)
 	        .title("James Joyce")
-	        .snippet("the James Joyce Statue was built 1926 by Dublin  City Council,\n\n She was a fish mongerer"));
+	        .snippet("the James Joyce Statue was built 1926 by Dublin  City Council\n She was a fish mongerer"));
 			//mMap.showInfoWindow();
 jj.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
 			

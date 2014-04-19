@@ -196,11 +196,11 @@ containing a value of this type.
         public static final int all=0x7f060013;
         public static final int buttonNext=0x7f060021;
         public static final int button_about=0x7f060009;
-        public static final int button_availability=0x7f06000b;
         public static final int button_book_tour=0x7f06000c;
         public static final int button_buy_full_version=0x7f06000d;
         public static final int button_nfc=0x7f06000e;
         public static final int button_scan=0x7f06000f;
+        public static final int button_statues=0x7f06000b;
         public static final int button_take_tour=0x7f06000a;
         public static final int card_view=0x7f060015;
         public static final int hybrid=0x7f060004;
@@ -264,7 +264,7 @@ containing a value of this type.
     }
     public static final class string {
         public static final int about=0x7f07001c;
-        public static final int about_text=0x7f070024;
+        public static final int about_text=0x7f070025;
         public static final int action_settings=0x7f07001a;
         public static final int app_name=0x7f070019;
         /**   Title for notification shown when GooglePlayServices needs to be
@@ -291,8 +291,8 @@ containing a value of this type.
          */
         public static final int auth_client_using_bad_version_title=0x7f070013;
         public static final int availability=0x7f07001e;
-        public static final int book_tour=0x7f07001f;
-        public static final int buy_full_version=0x7f070020;
+        public static final int book_tour=0x7f070020;
+        public static final int buy_full_version=0x7f070021;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
@@ -360,12 +360,13 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f070012;
-        public static final int guinness=0x7f070026;
+        public static final int guinness=0x7f070027;
         public static final int hello_world=0x7f07001b;
-        public static final int molly_malone=0x7f070025;
-        public static final int neal_description=0x7f070023;
-        public static final int nfc=0x7f070022;
-        public static final int scan=0x7f070021;
+        public static final int molly_malone=0x7f070026;
+        public static final int neal_description=0x7f070024;
+        public static final int nfc=0x7f070023;
+        public static final int scan=0x7f070022;
+        public static final int statues=0x7f07001f;
         public static final int take_tour=0x7f07001d;
     }
     public static final class style {

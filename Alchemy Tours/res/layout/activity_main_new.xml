@@ -21,11 +21,11 @@
         android:text="@string/take_tour" />
 
     <Button
-        android:id="@+id/button_availability"
+        android:id="@+id/button_statues"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:text="@string/availability" />
+        android:text="@string/statues" />
 
     <Button
         android:id="@+id/button_book_tour"
